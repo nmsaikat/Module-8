@@ -1,13 +1,13 @@
 <?php
-namespace CloudStorage;
+// namespace CloudStorage;
 
-use CloudStorage\mail\mail;
+// use CloudStorage\mail\mail;
 
-include 'mail.php';
-class Main{
-    function __construct(){
-        (new mail()->sendMail());
-    }
-}
+// include 'mail.php';
+// class Main{
+//     function __construct(){
+//         (new mail()->sendMail());
+//     }
+// }
 
-new Main();
+// new Main();
